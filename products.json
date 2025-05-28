@@ -1,0 +1,171 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Funko POP! Deadpool",
+      "brand": "Funko",
+      "series": "Marvel",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 450,
+      "inStock": true,
+      "image": "deadpool.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Funko POP! Гаррі Поттер у мантії",
+      "brand": "Funko",
+      "series": "Гаррі Поттер",
+      "category": "Фентезі",
+      "status": "нова",
+      "price": 480,
+      "inStock": true,
+      "image": "harry_potter.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Funko POP! Spider-Man",
+      "brand": "Funko",
+      "series": "Marvel",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 430,
+      "inStock": true,
+      "image": "spiderman.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Funko POP! Елза",
+      "brand": "Funko",
+      "series": "Disney Frozen",
+      "category": "Мультфільми",
+      "status": "нова",
+      "price": 420,
+      "inStock": true,
+      "image": "elsa.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Funko POP! Дарт Вейдер",
+      "brand": "Funko",
+      "series": "Star Wars",
+      "category": "Фільми",
+      "status": "нова",
+      "price": 470,
+      "inStock": true,
+      "image": "darth_vader.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Funko POP! Джокер (The Dark Knight)",
+      "brand": "Funko",
+      "series": "DC Comics",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 480,
+      "inStock": true,
+      "image": "joker.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Funko POP! Гомер Симпсон",
+      "brand": "Funko",
+      "series": "The Simpsons",
+      "category": "Мультфільми",
+      "status": "нова",
+      "price": 400,
+      "inStock": true,
+      "image": "homer_simpson.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Funko POP! Халк",
+      "brand": "Funko",
+      "series": "Marvel",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 450,
+      "inStock": true,
+      "image": "hulk.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Funko POP! Герміона Грейнджер",
+      "brand": "Funko",
+      "series": "Гаррі Поттер",
+      "category": "Фентезі",
+      "status": "нова",
+      "price": 470,
+      "inStock": true,
+      "image": "hermione.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Funko POP! Міккі Маус",
+      "brand": "Funko",
+      "series": "Disney",
+      "category": "Мультфільми",
+      "status": "нова",
+      "price": 420,
+      "inStock": true,
+      "image": "mickey_mouse.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Funko POP! Капітан Америка",
+      "brand": "Funko",
+      "series": "Marvel",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 430,
+      "inStock": true,
+      "image": "captain_america.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Funko POP! Вінні-Пух",
+      "brand": "Funko",
+      "series": "Disney",
+      "category": "Мультфільми",
+      "status": "нова",
+      "price": 410,
+      "inStock": true,
+      "image": "winnie_pooh.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Funko POP! Тоні Старк (Iron Man)",
+      "brand": "Funko",
+      "series": "Marvel",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 440,
+      "inStock": true,
+      "image": "tony_stark.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Funko POP! Супермен",
+      "brand": "Funko",
+      "series": "DC Comics",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 460,
+      "inStock": true,
+      "image": "superman.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Funko POP! Бетмен",
+      "brand": "Funko",
+      "series": "DC Comics",
+      "category": "Комікси",
+      "status": "нова",
+      "price": 460,
+      "inStock": true,
+      "image": "batman.jpg"
+    }
+  ],
+  "orders": []
+}
+
