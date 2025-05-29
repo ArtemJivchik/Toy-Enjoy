@@ -1,0 +1,21 @@
+const fs = require('fs');
+const path = require('path');
+
+class DataWrapper {
+  constructor(jsonPath) {
+    this.jsonPath = jsonPath;
+  }
+
+  getProducts() {
+    try {
+      const raw = fs.readFileSync(this.jsonPath, 'utf-8');
+      const parsed = JSON.parse(raw);
+      return parsed.products || [];
+    } catch (err) {
+      console.error("Помилка читання JSON:", err.message);
+      return [];
+    }
+  }
+}
+
+module.exports = DataWrapper;

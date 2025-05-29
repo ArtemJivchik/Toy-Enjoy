@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>ToyEnjoy</title>
+  <style>
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      display: inline-block;
+      text-align: center;
+    }
+    .product img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <h1>Каталог товарів</h1>
+  <div id="products"></div>
+
+  <script>
+    fetch('/products')
+      .then(response => response.json())
+      .then(data => {
+        const container = document.getElementById('products');
+        data.forEach(product => {
+          const div = document.createElement('div');
+          div.className = 'product';
+          div.innerHTML = `
+            <img src="/images/${product.image}" alt="${product.title}" />
+            <h3>${product.title}</h3>
+            <p>${product.series}</p>
+            <p>${product.price} грн</p>
+          `;
+          container.appendChild(div);
+        });
+      })
+      .catch(error => {
+        document.getElementById('products').innerText = 'Не вдалося завантажити товари';
+        console.error(error);
+      });
+  </script>
+</body>
+</html>
+
